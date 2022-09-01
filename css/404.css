@@ -1,0 +1,196 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.page-not {
+  display: flex;
+  padding-top: 150px;
+}
+@media (max-width: 991px) {
+  .page-not {
+    padding-top: 10px;
+  }
+}
+@media (max-width: 991px) {
+  .page-not {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 991px) {
+  .page-not .cnt-se {
+    order: 2;
+  }
+}
+.page-not .cnt-se .main-heading {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 80px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+@media (max-width: 1679px) {
+  .page-not .cnt-se .main-heading {
+    font-size: 75px;
+    line-height: 80px;
+  }
+}
+@media (max-width: 1440px) {
+  .page-not .cnt-se .main-heading {
+    font-size: 70px;
+    line-height: 80px;
+  }
+}
+@media (max-width: 1280px) {
+  .page-not .cnt-se .main-heading {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+@media (max-width: 991px) {
+  .page-not .cnt-se .main-heading {
+    font-size: 55px;
+    line-height: 65px;
+  }
+}
+@media (max-width: 767px) {
+  .page-not .cnt-se .main-heading {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+.page-not .cnt-se .sub-heading {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+@media (max-width: 1679px) {
+  .page-not .cnt-se .sub-heading {
+    font-size: 45px;
+    line-height: 60px;
+  }
+}
+@media (max-width: 1440px) {
+  .page-not .cnt-se .sub-heading {
+    font-size: 30px;
+    line-height: 50px;
+  }
+}
+@media (max-width: 1280px) {
+  .page-not .cnt-se .sub-heading {
+    font-size: 35px;
+    line-height: 45px;
+  }
+}
+@media (max-width: 991px) {
+  .page-not .cnt-se .sub-heading {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .page-not .cnt-se .sub-heading {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+.page-not .cnt-se .part-content {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  color: #ffffff;
+  margin: 50px 0px 40px;
+}
+@media (max-width: 1679px) {
+  .page-not .cnt-se .part-content {
+    font-size: 23px;
+    line-height: 60px;
+  }
+}
+@media (max-width: 1440px) {
+  .page-not .cnt-se .part-content {
+    font-size: 22px;
+    line-height: 33px;
+  }
+}
+@media (max-width: 1280px) {
+  .page-not .cnt-se .part-content {
+    font-size: 21px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 991px) {
+  .page-not .cnt-se .part-content {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 20px 0px 20px;
+  }
+}
+@media (max-width: 767px) {
+  .page-not .cnt-se .part-content {
+    font-size: 19px;
+    line-height: 25px;
+  }
+}
+.page-not .cnt-se .btn-back {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 50px;
+  background: #BCF15E;
+  border-radius: 100px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #23212f;
+}
+@media (max-width: 991px) {
+  .page-not .cnt-se .btn-back {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+.page-not .image-cnt {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .page-not .image-cnt {
+    order: 1;
+  }
+}
+.page-not .image-cnt .not-data {
+  max-width: 100%;
+}
+@media (max-width: 991px) {
+  .page-not .image-cnt .not-data {
+    max-width: 200px;
+  }
+}
+
+/*# sourceMappingURL=404.css.map */

@@ -1,0 +1,182 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+footer {
+  background-color: #0d0d0d;
+  position: relative;
+  padding-top: 150px;
+}
+footer .logo-scl {
+  text-align: center;
+  position: relative;
+}
+footer .logo-scl .logo-ftr {
+  margin-bottom: 50px;
+}
+footer .logo-scl .logo-ftr img {
+  width: 180px;
+}
+footer .logo-scl p {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 14px;
+  line-height: 23px;
+  color: #c4f1de;
+}
+footer .logo-scl .scl a {
+  margin: 0 5px;
+  text-decoration: none;
+  position: relative;
+  -webkit-transition: 0.2s ease-out all;
+  -moz-transition: 0.2s ease-out all;
+  -ms-transition: 0.2s ease-out all;
+  transition: 0.2s ease-out all;
+  position: relative;
+  z-index: 999;
+  top: 0;
+  -webkit-transition: 0.2s ease-out all;
+  -moz-transition: 0.2s ease-out all;
+  -ms-transition: 0.2s ease-out all;
+  transition: 0.2s ease-out all;
+}
+footer .logo-scl .scl a:hover {
+  top: -5px;
+  -webkit-transition: 0.2s ease-out all;
+  -moz-transition: 0.2s ease-out all;
+  -ms-transition: 0.2s ease-out all;
+  transition: 0.2s ease-out all;
+}
+footer .logo-scl .scl a img {
+  width: 45px;
+}
+footer .logo-scl .scl a:hover {
+  opacity: 0.8;
+}
+footer .copy-rgt {
+  margin-top: 33px;
+  height: 100px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .copy-rgt a {
+  color: #009eff;
+  text-decoration: none;
+}
+footer .copy-rgt a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1679px) {
+  /* footer .logo-scl .logo-ftr img {
+       width: 140px;
+   }
+   footer .logo-scl .logo-ftr {
+       margin-bottom: 40px;
+   }
+   footer {
+       background-color: #0d0d0d;
+       position: relative;
+       padding-top: 40px;
+       margin-top: 120px;
+   }*/
+  footer .ftr-nav ul {
+    padding-left: 0;
+  }
+
+  footer .logo-scl p {
+    font-size: 13px;
+  }
+
+  footer .ftr-nav ul li {
+    font-size: 13px;
+  }
+
+  footer .logo-scl .scl a img {
+    width: 35px;
+  }
+
+  footer .copy-rgt {
+    margin-top: 30px;
+  }
+
+  footer .copy-rgt {
+    font-size: 13px;
+    padding: 0px 15px;
+    text-align: center;
+  }
+}
+@media (max-width: 1023px) {
+  /* footer {
+       margin-top: 70px;
+   }*/
+  footer:after {
+    background-size: 40%;
+  }
+
+  footer:before {
+    background-size: 35%;
+  }
+}
+@media (max-width: 991px) {
+  footer {
+    padding-bottom: 0px;
+    padding-top: 100px;
+  }
+}
+@media (max-width: 767px) {
+  footer .copy-rgt {
+    padding: 35px;
+  }
+
+  footer .logo-scl {
+    margin-bottom: 0px;
+  }
+
+  footer .logo-scl .scl a {
+    margin-right: 7px;
+  }
+
+  footer .logo-scl .scl a img {
+    width: 30px;
+  }
+
+  footer .copy-rgt {
+    border-width: 1px;
+    height: auto;
+    margin-top: 25px;
+    text-align: center;
+  }
+}
+@media (max-width: 479px) {
+  footer .scl {
+    max-width: 270px;
+    margin: 0 auto;
+  }
+  footer .scl a {
+    margin-bottom: 10px !important;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

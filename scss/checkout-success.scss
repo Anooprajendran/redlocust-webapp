@@ -1,0 +1,282 @@
+@import "partials/variables";
+@import "partials/mixins";
+
+
+.register-main {   
+    position: relative;
+    z-index: 1;
+    background: {
+        image: url('../../../../../assets/img/Login.png');
+        size: cover;
+        repeat: no-repeat;
+        position: center;
+    } 
+    .register-outer {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        @media(max-width:767px){
+            width: 100%;
+        }
+        .register-text{
+            margin-bottom: 50px;
+            margin-top: 50px;
+            @media(max-width:991px){
+               margin-bottom: 30px;
+               margin-top: 30px;
+            }
+            h3{
+                font-family: $Space-Grotesk-font;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 64px;
+                color: #FFFFFF;
+                @media(max-width:1679px){
+                    font-size: 40px;
+                    line-height: 56px;
+                }
+                @media(max-width:1440px){
+                    font-size: 35px;
+                    line-height: 51px;
+                }
+                @media(max-width:1280px){
+                    font-size: 30px;
+                    line-height: 47px;
+                }
+                @media(max-width:991px){
+                    font-size: 25px;
+                    line-height: 42px;
+                }
+            }
+        }
+        .register-info {
+            display: flex;
+            @media(max-width:767px){
+                flex-wrap: wrap;
+            }
+            .icons {
+                background: #BCF15E;
+                border-radius: 100%;
+                display: flex;
+                margin-right: 20px;
+                width: 120px;
+                height: 120px;
+                justify-content: center;
+                img{
+                    width: 100px;
+                   
+                    @media(max-width:1440px){
+                        width: 80px;
+                    }
+                    @media(max-width:1280px){
+                        width: 70px;
+                    }
+                    @media(max-width:991px){
+                        width: 60px;
+                    }
+                }
+            }
+           
+            .register-txt{
+                display: flex;
+                align-items: center;
+                width: calc(100% - 130px);
+
+                @media(max-width:1440px){
+                    width: calc(100% - 90px);
+                }
+                @media(max-width:1280px){
+                    width: calc(100% - 80px);
+                }
+                @media(max-width:991px){
+                    width: calc(100% - 70px);
+                }
+                @media(max-width:767px){
+                   width: 100%;
+                }
+                h3{
+                    font-family: $Space-Grotesk-font;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 40px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #fff;
+                    margin-bottom: 0px;
+                    width: 100%;
+                    span{
+                        color: #EB5757;
+                    }
+                }
+            }
+            &.phone{
+                @media(max-width:991px){
+                    flex-direction: column;
+                }
+                .icons {
+                    align-items: center;
+                    img{
+                        width: auto;
+                        height: 80px;
+                    }
+                }
+                .register-txt{
+                   flex-direction: column; 
+                   align-items: flex-start;
+                   .form-row{
+                       display: flex;
+                       margin:10px -15px;
+                       @media(max-width:767px){
+                        flex-wrap: wrap;
+                        }  
+                       .form-group{
+                           padding: 0px 15px;
+                           @media(max-width:767px){
+                                padding: 0px 10px;
+                            }   
+                           .form-control{
+                                width: 70px;
+                                height: 70px;
+                                background: #23212F;
+                                border-radius: 110px;
+                                color: #FFFFFF;
+                                opacity: 0.3;
+                                text-align: center;
+                                font-family:  $Space-Grotesk-font;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 29px;
+                                line-height: 40px;
+                                margin-bottom: 10px;
+                                @media(max-width:767px){
+                                    width: 60px;
+                                    height: 60px; 
+                                }   
+                           }
+                       }
+                   }
+                }
+            }
+        }
+    }
+}
+
+
+
+.profile-sctn{
+    background: #111019;
+    border-radius: 21px;
+    padding: 28px;
+    display: flex;
+    margin-bottom:20px;
+    margin-top: 50px;
+    position: relative;
+    @media(max-width:1280px){
+      flex-wrap: wrap;
+    }
+    .profile{
+        background: #35343b;
+        border-radius: 10px;
+        margin-right: 25px;
+        width: 113px;
+        height: 113px;
+        @media(max-width:1280px){
+            margin-bottom: 15px;
+        }
+        @media(max-width:767px){
+          width: 100%;
+          margin-right: 0px;
+        }
+    }
+
+    .package-details{
+        font-family: $primary-font;
+        min-width: 230px;
+        strong{
+            color: #fff;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            margin-bottom: 10px;
+            display: inline-block;
+            @media(max-width:1679px){
+                font-size: 23px;
+            }
+            @media(max-width:1440px){
+                font-size: 22px;
+            }
+            @media(max-width:1280px){
+                font-size: 21px;
+            }
+            @media(max-width:991px){
+                font-size: 20px;
+            }
+            @media(max-width:767px){
+                font-size: 19px;
+            }
+        }
+    .price{
+        color:#D24244;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 35px;
+        @media(max-width:1679px){
+            font-size: 30px;
+        }
+        @media(max-width:1440px){
+            font-size: 28px;
+        }
+        @media(max-width:1280px){
+            font-size: 26px;
+        }
+        @media(max-width:991px){
+            font-size: 24px;
+        }
+        @media(max-width:767px){
+            font-size: 22px;
+        }
+    }
+}
+.lock-icn{
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    img{
+        width: 60px;
+    }
+}
+}
+
+.info-text{
+    font-family:$primary-font;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9D9D9D;
+}
+.btn-more{
+    padding: 16px 80px;
+    @media(max-width:575px){
+        padding: 15px 20px;
+    }
+    background: rgba(199, 46, 48, 0.1);
+    border: 1.5px solid #C72E30;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-family:$primary-font;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-top: 30px;
+    &:hover{
+        color: #fff;
+    }
+}

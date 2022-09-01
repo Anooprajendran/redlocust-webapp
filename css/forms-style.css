@@ -1,0 +1,678 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.flex-style {
+  justify-content: flex-start;
+}
+.flex-style .outer {
+  padding-right: 60px;
+}
+@media (max-width: 767px) {
+  .flex-style .outer {
+    padding-right: 0px;
+  }
+}
+.flex-style .form-control:focus {
+  box-shadow: none;
+}
+.flex-style .info {
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+.flex-style .input-group {
+  position: relative;
+}
+.flex-style .input-group input {
+  padding-right: 50px !important;
+  left: 0px;
+}
+.flex-style .input-group .img {
+  position: absolute;
+  right: 11px;
+  top: 11px;
+  bottom: 10px;
+  z-index: 9;
+}
+.flex-style .disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.flex-style .btn-100 {
+  border: 0;
+  background: #C72E30;
+  color: #fff;
+  border-radius: 100px;
+  min-width: 290px;
+  height: 52px;
+  -webkit-transition: 0.2s ease-out all;
+  -moz-transition: 0.2s ease-out all;
+  -ms-transition: 0.2s ease-out all;
+  transition: 0.2s ease-out all;
+}
+.flex-style .btn-100 i {
+  margin-right: 8px;
+}
+.flex-style .frm-grp {
+  display: flex;
+}
+@media (max-width: 767px) {
+  .flex-style .frm-grp {
+    flex-wrap: wrap;
+  }
+  .flex-style .frm-grp .form-control {
+    margin-bottom: 10px !important;
+  }
+  .flex-style .frm-grp .btn {
+    width: 100%;
+    margin: 0px !important;
+  }
+}
+
+.forms-cover {
+  display: block !important;
+  margin-top: 50px;
+}
+.forms-cover .login-form-block {
+  width: 100%;
+}
+
+.form-row-inner {
+  display: flex;
+}
+
+.gry-box {
+  background: #23212F;
+  border-radius: 14px;
+  padding: 26px 20px;
+}
+.gry-box .title-sm {
+  font-family: "Space Grotesk", sans-serif;
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 25px;
+}
+.gry-box .details-scn .form-label {
+  display: block;
+  font-weight: 300;
+  font-size: 17px;
+  color: #fff;
+  margin-bottom: 12px;
+  padding-left: 25px;
+}
+.gry-box .details-scn .form-control {
+  background: #383741;
+  border-radius: 110px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 17px;
+  border: none;
+  padding: 12px 25px;
+}
+.gry-box .details-scn .applied-block {
+  background: rgba(242, 201, 76, 0.1);
+  border-radius: 110px;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gry-box .details-scn .applied-block p {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+}
+@media (max-width: 1600px) {
+  .gry-box .details-scn .applied-block p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1280px) {
+  .gry-box .details-scn .applied-block p {
+    font-size: 14px;
+  }
+}
+.gry-box .details-scn .applied-block span.check_green {
+  background: url("../img/check_green.svg") no-repeat;
+  width: 47px;
+  height: 47px;
+  background-size: 100%;
+  margin-right: 10px;
+}
+@media (max-width: 1600px) {
+  .gry-box .details-scn .applied-block span.check_green {
+    width: 36px;
+    height: 36px;
+  }
+}
+.gry-box .details-scn .applied-block span.close {
+  background: url("../img/close.svg") no-repeat;
+  width: 47px;
+  height: 47px;
+  display: block;
+  background-size: 100%;
+}
+@media (max-width: 1600px) {
+  .gry-box .details-scn .applied-block span.close {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+.profile-sctn {
+  background: #111019;
+  border-radius: 21px;
+  padding: 28px;
+  display: flex;
+  margin-bottom: 20px;
+}
+@media (max-width: 1280px) {
+  .profile-sctn {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1199px) {
+  .profile-sctn {
+    padding: 24px;
+  }
+}
+.profile-sctn .profile {
+  background: #35343b;
+  border-radius: 10px;
+  margin-right: 25px;
+  width: 113px;
+  height: 113px;
+}
+@media (max-width: 1280px) {
+  .profile-sctn .profile {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 1199px) {
+  .profile-sctn .profile {
+    width: 95px;
+    height: 95px;
+  }
+}
+.profile-sctn .package-details {
+  font-family: "Rubik", sans-serif;
+  min-width: 230px;
+}
+@media (max-width: 1280px) {
+  .profile-sctn .package-details {
+    min-width: 220px;
+  }
+}
+@media (max-width: 1199px) {
+  .profile-sctn .package-details {
+    min-width: 160px;
+  }
+}
+.profile-sctn .package-details strong {
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+@media (max-width: 1679px) {
+  .profile-sctn .package-details strong {
+    font-size: 23px;
+  }
+}
+@media (max-width: 1440px) {
+  .profile-sctn .package-details strong {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1280px) {
+  .profile-sctn .package-details strong {
+    font-size: 21px;
+  }
+}
+@media (max-width: 991px) {
+  .profile-sctn .package-details strong {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .profile-sctn .package-details strong {
+    font-size: 19px;
+  }
+}
+.profile-sctn .package-details .price {
+  color: #D24244;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 35px;
+  width: 155px;
+}
+@media (max-width: 1679px) {
+  .profile-sctn .package-details .price {
+    font-size: 30px;
+    width: 145px;
+  }
+}
+@media (max-width: 1440px) {
+  .profile-sctn .package-details .price {
+    font-size: 28px;
+    width: 135px;
+  }
+}
+@media (max-width: 1280px) {
+  .profile-sctn .package-details .price {
+    font-size: 26px;
+    width: 120px;
+  }
+}
+@media (max-width: 991px) {
+  .profile-sctn .package-details .price {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .profile-sctn .package-details .price {
+    font-size: 22px;
+  }
+}
+.profile-sctn .icon-edit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+.profile-sctn .icon-edit .btn {
+  background: #35343b;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  border: 0;
+  position: relative;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1199px) {
+  .profile-sctn .icon-edit .btn {
+    width: 45px;
+    height: 45px;
+  }
+}
+.profile-sctn .icon-edit .btn:hover {
+  background-color: #45444a;
+}
+.profile-sctn .icon-edit .btn:focus {
+  box-shadow: none;
+}
+.profile-sctn .icon-edit input[type=file] {
+  display: none;
+}
+
+.input-with-btn {
+  display: flex;
+}
+.input-with-btn .btn {
+  background-color: #BCF15E;
+  min-width: 129px;
+  height: 48px;
+  color: #000;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.price-list {
+  font-family: "Rubik", sans-serif;
+  margin-top: 32px;
+}
+.price-list table {
+  width: 100%;
+  color: #fff;
+}
+.price-list table th,
+.price-list table td {
+  padding-bottom: 20px;
+  width: 50%;
+}
+.price-list table th {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  padding-left: 30px;
+}
+@media (max-width: 1679px) {
+  .price-list table th {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1440px) {
+  .price-list table th {
+    font-size: 21px;
+  }
+}
+@media (max-width: 1280px) {
+  .price-list table th {
+    font-size: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .price-list table th {
+    font-size: 19px;
+  }
+}
+@media (max-width: 767px) {
+  .price-list table th {
+    font-size: 18px;
+  }
+}
+.price-list table td {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  text-align: right;
+  list-style: none;
+  width: 100%;
+  padding-right: 30px;
+}
+@media (max-width: 1679px) {
+  .price-list table td {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1440px) {
+  .price-list table td {
+    font-size: 19px;
+  }
+}
+@media (max-width: 1280px) {
+  .price-list table td {
+    font-size: 18px;
+  }
+}
+@media (max-width: 991px) {
+  .price-list table td {
+    font-size: 17px;
+  }
+}
+@media (max-width: 767px) {
+  .price-list table td {
+    font-size: 16px;
+  }
+}
+.price-list .total-price {
+  border-top: 1px solid #383741;
+}
+.price-list .total-price th,
+.price-list .total-price td {
+  padding-bottom: 0;
+  padding-top: 20px;
+  vertical-align: top;
+}
+.price-list .total-price p {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: "Rubik", sans-serif;
+}
+.price-list .total-price span {
+  color: #BCF15E;
+}
+
+/* The container */
+.check-box {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  width: 280px;
+  margin-left: auto;
+  margin-top: 25px;
+}
+.check-box .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border: 2px solid #BCF15E;
+  border-radius: 5px;
+}
+.check-box .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Hide the browser's default checkbox */
+.check-box input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+/* On mouse-over, add a grey background color */
+.check-box:hover input ~ .checkmark {
+  background-color: #421e1f;
+}
+
+/* When the checkbox is checked, add a blue background */
+/* Create the checkmark/indicator (hidden when not checked) */
+/* Show the checkmark when checked */
+.check-box input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.check-box .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #BCF15E;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* The container */
+.radio-btn {
+  display: block;
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 37px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+@media (max-width: 1679px) {
+  .radio-btn {
+    line-height: 31px;
+  }
+}
+@media (max-width: 1280px) {
+  .radio-btn {
+    line-height: 25px;
+  }
+}
+@media (max-width: 991px) {
+  .radio-btn {
+    line-height: 20 px;
+  }
+}
+.radio-btn .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 35px;
+  width: 35px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1.5px solid #BCF15E;
+}
+@media (max-width: 1679px) {
+  .radio-btn .checkmark {
+    height: 30px;
+    width: 30px;
+  }
+}
+@media (max-width: 1440px) {
+  .radio-btn .checkmark {
+    height: 28px;
+    width: 28px;
+  }
+}
+@media (max-width: 1280px) {
+  .radio-btn .checkmark {
+    height: 25px;
+    width: 25px;
+  }
+}
+@media (max-width: 991px) {
+  .radio-btn .checkmark {
+    height: 20px;
+    width: 20px;
+  }
+}
+.radio-btn .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Hide the browser's default radio button */
+.radio-btn input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+/* On mouse-over, add a grey background color */
+.radio-btn:hover input ~ .checkmark {
+  background-color: #421e1f;
+}
+
+/* When the radio button is checked, add a blue background */
+/* Create the indicator (the dot/circle - hidden when not checked) */
+/* Show the indicator (dot/circle) when checked */
+.radio-btn input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-btn .checkmark:after {
+  top: 6px;
+  left: 6px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #BCF15E;
+}
+@media (max-width: 1679px) {
+  .radio-btn .checkmark:after {
+    height: 15px;
+    width: 15px;
+    left: 6px;
+    top: 6px;
+  }
+}
+@media (max-width: 1440px) {
+  .radio-btn .checkmark:after {
+    height: 15px;
+    width: 15px;
+    left: 4px;
+    top: 4px;
+  }
+}
+@media (max-width: 1280px) {
+  .radio-btn .checkmark:after {
+    height: 15px;
+    width: 15px;
+    left: 3px;
+    top: 4px;
+  }
+}
+@media (max-width: 991px) {
+  .radio-btn .checkmark:after {
+    height: 10px;
+    width: 10px;
+    left: 3px;
+    top: 4px;
+  }
+}
+
+@media (max-width: 991px) {
+  .form-row-inner .col-md-6 {
+    max-width: 100% !important;
+    flex: 0 0 1000%;
+    order: unset !important;
+  }
+
+  .login-form-outer.outer {
+    padding-right: 0px !important;
+  }
+}
+@media (min-width: 992px) {
+  .second-line {
+    bottom: 0px;
+    position: relative;
+  }
+}
+@media (min-width: 990px) and (max-width: 1300px) {
+  .second-line {
+    bottom: -15px !important;
+  }
+}
+
+/*# sourceMappingURL=forms-style.css.map */

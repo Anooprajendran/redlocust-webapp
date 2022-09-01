@@ -1,0 +1,353 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.register-main {
+  position: relative;
+  z-index: 1;
+  background-image: url("../img/Login.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.register-main .register-outer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 767px) {
+  .register-main .register-outer {
+    width: 100%;
+  }
+}
+.register-main .register-outer .register-text {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+@media (max-width: 991px) {
+  .register-main .register-outer .register-text {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+}
+.register-main .register-outer .register-text h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #FFFFFF;
+}
+@media (max-width: 1679px) {
+  .register-main .register-outer .register-text h3 {
+    font-size: 40px;
+    line-height: 56px;
+  }
+}
+@media (max-width: 1440px) {
+  .register-main .register-outer .register-text h3 {
+    font-size: 35px;
+    line-height: 51px;
+  }
+}
+@media (max-width: 1280px) {
+  .register-main .register-outer .register-text h3 {
+    font-size: 30px;
+    line-height: 47px;
+  }
+}
+@media (max-width: 991px) {
+  .register-main .register-outer .register-text h3 {
+    font-size: 25px;
+    line-height: 42px;
+  }
+}
+.register-main .register-outer .register-info {
+  display: flex;
+}
+@media (max-width: 767px) {
+  .register-main .register-outer .register-info {
+    flex-wrap: wrap;
+  }
+}
+.register-main .register-outer .register-info .icons {
+  background: #BCF15E;
+  border-radius: 100%;
+  display: flex;
+  margin-right: 20px;
+  width: 120px;
+  height: 120px;
+  justify-content: center;
+}
+.register-main .register-outer .register-info .icons img {
+  width: 100px;
+}
+@media (max-width: 1440px) {
+  .register-main .register-outer .register-info .icons img {
+    width: 80px;
+  }
+}
+@media (max-width: 1280px) {
+  .register-main .register-outer .register-info .icons img {
+    width: 70px;
+  }
+}
+@media (max-width: 991px) {
+  .register-main .register-outer .register-info .icons img {
+    width: 60px;
+  }
+}
+.register-main .register-outer .register-info .register-txt {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 130px);
+}
+@media (max-width: 1440px) {
+  .register-main .register-outer .register-info .register-txt {
+    width: calc(100% - 90px);
+  }
+}
+@media (max-width: 1280px) {
+  .register-main .register-outer .register-info .register-txt {
+    width: calc(100% - 80px);
+  }
+}
+@media (max-width: 991px) {
+  .register-main .register-outer .register-info .register-txt {
+    width: calc(100% - 70px);
+  }
+}
+@media (max-width: 767px) {
+  .register-main .register-outer .register-info .register-txt {
+    width: 100%;
+  }
+}
+.register-main .register-outer .register-info .register-txt h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 0px;
+  width: 100%;
+}
+.register-main .register-outer .register-info .register-txt h3 span {
+  color: #EB5757;
+}
+@media (max-width: 991px) {
+  .register-main .register-outer .register-info.phone {
+    flex-direction: column;
+  }
+}
+.register-main .register-outer .register-info.phone .icons {
+  align-items: center;
+}
+.register-main .register-outer .register-info.phone .icons img {
+  width: auto;
+  height: 80px;
+}
+.register-main .register-outer .register-info.phone .register-txt {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.register-main .register-outer .register-info.phone .register-txt .form-row {
+  display: flex;
+  margin: 10px -15px;
+}
+@media (max-width: 767px) {
+  .register-main .register-outer .register-info.phone .register-txt .form-row {
+    flex-wrap: wrap;
+  }
+}
+.register-main .register-outer .register-info.phone .register-txt .form-row .form-group {
+  padding: 0px 15px;
+}
+@media (max-width: 767px) {
+  .register-main .register-outer .register-info.phone .register-txt .form-row .form-group {
+    padding: 0px 10px;
+  }
+}
+.register-main .register-outer .register-info.phone .register-txt .form-row .form-group .form-control {
+  width: 70px;
+  height: 70px;
+  background: #23212F;
+  border-radius: 110px;
+  color: #FFFFFF;
+  opacity: 0.3;
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+  .register-main .register-outer .register-info.phone .register-txt .form-row .form-group .form-control {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.profile-sctn {
+  background: #111019;
+  border-radius: 21px;
+  padding: 28px;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  position: relative;
+}
+@media (max-width: 1280px) {
+  .profile-sctn {
+    flex-wrap: wrap;
+  }
+}
+.profile-sctn .profile {
+  background: #35343b;
+  border-radius: 10px;
+  margin-right: 25px;
+  width: 113px;
+  height: 113px;
+}
+@media (max-width: 1280px) {
+  .profile-sctn .profile {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .profile-sctn .profile {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+.profile-sctn .package-details {
+  font-family: "Rubik", sans-serif;
+  min-width: 230px;
+}
+.profile-sctn .package-details strong {
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+@media (max-width: 1679px) {
+  .profile-sctn .package-details strong {
+    font-size: 23px;
+  }
+}
+@media (max-width: 1440px) {
+  .profile-sctn .package-details strong {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1280px) {
+  .profile-sctn .package-details strong {
+    font-size: 21px;
+  }
+}
+@media (max-width: 991px) {
+  .profile-sctn .package-details strong {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .profile-sctn .package-details strong {
+    font-size: 19px;
+  }
+}
+.profile-sctn .package-details .price {
+  color: #D24244;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 35px;
+}
+@media (max-width: 1679px) {
+  .profile-sctn .package-details .price {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1440px) {
+  .profile-sctn .package-details .price {
+    font-size: 28px;
+  }
+}
+@media (max-width: 1280px) {
+  .profile-sctn .package-details .price {
+    font-size: 26px;
+  }
+}
+@media (max-width: 991px) {
+  .profile-sctn .package-details .price {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .profile-sctn .package-details .price {
+    font-size: 22px;
+  }
+}
+.profile-sctn .lock-icn {
+  position: absolute;
+  right: -20px;
+  top: -20px;
+}
+.profile-sctn .lock-icn img {
+  width: 60px;
+}
+
+.info-text {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #9D9D9D;
+}
+
+.btn-more {
+  padding: 16px 80px;
+  background: rgba(199, 46, 48, 0.1);
+  border: 1.5px solid #C72E30;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+@media (max-width: 575px) {
+  .btn-more {
+    padding: 15px 20px;
+  }
+}
+.btn-more:hover {
+  color: #fff;
+}
+
+/*# sourceMappingURL=checkout-success.css.map */
